@@ -1,6 +1,8 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+          <link rel="stylesheet" type="text/css" href="styles.css">
+          <link href='https://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet'>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 		<script type="text/javascript" src="scripts.js"></script>
 	</head>
@@ -9,16 +11,29 @@
      	<div class="container">
      		<div class="card">
      			<div class="header">
-     				<h1>HOSTNAME(_._._._)</h1>
+     				<h3>HOSTNAME(_._._._)</h3>
      			</div>
-     			<div class="body">
-     				<ul>
-     					<li>PING <span class="fa fa-spinner fa-spin" id="ping-loader"></span><span id="ping-update"></span></li>
-     					<li>INFO <span class="fa fa-spinner fa-spin" id="info-loader"></span><span id="info-update"></span></li>
-     					<li>DISK <span class="fa fa-spinner fa-spin" id="disk-loader"></span><span id="disk-update"></span></li>
-     					<li>RAM <span class="fa fa-spinner fa-spin" id="ram-loader"></span><span id="ram-update"></span></li>
-     					<li>LOAD <span class="fa fa-spinner fa-spin" id="load-loader"></span><span id="load-update"></span></li>
-     				</ul>
+                    <hr width="90%">
+     			<div class="content">
+
+     				<div class="module">PING : <span class="fa fa-spinner fa-spin" id="ping-loader"></span><span id="ping-update"></span></div>
+                              
+                              <hr width="70%">
+
+     				<div class="module">INFO : <span class="fa fa-spinner fa-spin" id="info-loader"></span><span id="info-update"></span></div>
+                              
+                              <hr width="70%">
+
+     				<div class="module">DISK : <span class="fa fa-spinner fa-spin" id="disk-loader"></span><span id="disk-update"></span></div>
+                              
+                              <hr width="70%">
+
+     				<div class="module">RAM : <span class="fa fa-spinner fa-spin" id="ram-loader"></span><span id="ram-update"></span></div>
+                              
+                              <hr width="70%">
+
+     				<div class="module">LOAD : <span class="fa fa-spinner fa-spin" id="load-loader"></span><span id="load-update"></span></div>
+
      			</div>
      			<div class="footer">
      				

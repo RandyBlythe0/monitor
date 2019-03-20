@@ -1,5 +1,32 @@
-#ping-loader {display: none;}
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');*/
+/*#ping-loader {display: none;}
 #info-loader {display: none;}
 #disk-loader {display: none;}
 #ram-loader {display: none;}
-#load-loader {display: none;}
+#load-loader {display: none;}*/
+body {
+    font-family: 'Anaheim';font-size: 12px;
+}
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  margin: 2px;
+  padding: 2px;
+  width:30%; 
+  overflow:hidden;
+}
+
+.header{
+	text-align: center;
+}
+
+.content{
+	margin: 5px;
+ 	padding: 5px;
+}
+
+.module{
+	margin: 2px;
+ 	padding: 2px;	
+}
